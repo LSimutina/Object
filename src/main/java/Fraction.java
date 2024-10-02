@@ -17,15 +17,15 @@ class Fraction {
         if (this == fr) return true;
         if (fr == null || getClass() != fr.getClass()) return false;
         Fraction fraction = (Fraction) fr;
-        return Objects.equals(num,fraction.num) && Objects.equals(denum, fraction.denum);
+        return Objects.equals(num, fraction.num) && Objects.equals(denum, fraction.denum);
     }
 
     @Override
-    public Fraction clone()  {
-        int x,y;
+    public Fraction clone() {
+        int x, y;
         x = this.num;
         y = this.denum;
-        Fraction fraction = new Fraction(x,y);
+        Fraction fraction = new Fraction(x, y);
         return fraction;
     }
 }
