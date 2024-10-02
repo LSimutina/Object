@@ -1,10 +1,10 @@
 Дан класс, описывающий ломаную линию:
 
 ```
-class PolyLine{
-    Point[] points;
+class Figure.PolyLine{
+    Figure.Point[] points;
 
-    public PolyLine(Point... points) {
+    public Figure.PolyLine(Figure.Point... points) {
         this.points = points;
     }
 
