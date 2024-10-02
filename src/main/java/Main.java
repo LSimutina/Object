@@ -1,9 +1,9 @@
 public class Main {
-    public static void main(String[] args) {
-        Fraction fraction1 = new Fraction(2,5);
-        Fraction fraction2 = new Fraction(2,5);
-        System.out.println(fraction1.equals(fraction2));
-        Fraction fraction3 = fraction2.clone();
-        System.out.println(fraction3);
+    public static void main(String[] args) throws CloneNotSupportedException {
+        Point point1 = new Point(2,5);
+        Point point2 = new Point(2,5);
+        System.out.println(point1.equals(point2));
+        Point point3 = point2.clone();
+        System.out.println(point3);
     }
 }
